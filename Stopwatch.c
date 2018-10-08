@@ -13,9 +13,9 @@ void timer(){
 	
 		printf("\n___________________________________STOPWATCH____________________________________\n");
 		printf("Pause--->'p'  Reset--->'r'  Exit--->'e'\n");
-		printf("\t\t\t\n\n\n\n\n\n\n\t\t\t\t______________\n\n");
-		printf("\t\t\t\t%d : %d : %d : %d\n",h,m,s,ms);
-		printf("\t\t\t\t______________\n");
+		printf("\t\t\t\n\n\n\n\n\n\n\t\t\t\t_________________\n\n");
+		printf("\t\t\t\t%02d : %02d : %02d : %02d\n",h,m,s,ms);
+		printf("\t\t\t\t_________________\n");
 		Sleep(1);
 		ms++;
 		system("cls");
@@ -36,9 +36,9 @@ void timer(){
 	 if(c=='p' || c=='P'){
 		
 		printf("\n___________________________________STOPWATCH____________________________________\n\n");
-		printf("\t\t\t\n\n\n\n\n\n\n\t\t\t\t______________\n\n");
-		printf("\t\t\t\t%d : %d : %d : %d\n",h,m,s,ms);
-		printf("\t\t\t\t______________\n");
+		printf("\t\t\t\n\n\n\n\n\n\n\t\t\t\t_________________\n\n");
+		printf("\t\t\t\t%02d : %02d : %02d : %02d\n",h,m,s,ms);
+		printf("\t\t\t\t_________________\n");
 		printf("%c",7);
 		Sleep(400);
 		printf("\n\n\t\t\t    Press any key to start again.\n");
@@ -108,4 +108,3 @@ int main(){
 	 }
 	}
 	}
-	
