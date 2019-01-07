@@ -8,9 +8,6 @@ void timer(){
 	char c;
 	printf("%c",7);
 	while(1){
-
-		
-	
 		printf("\n___________________________________STOPWATCH____________________________________\n");
 		printf("Pause--->'p'  Reset--->'r'  Exit--->'e'\n");
 		printf("\t\t\t\n\n\n\n\n\n\n\t\t\t\t_________________\n\n");
