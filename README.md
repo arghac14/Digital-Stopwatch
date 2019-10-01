@@ -4,5 +4,4 @@
 
 ![Main Screen](Screenshot1.png "Main screen")
 
-
 ![Timer screen](Screenshot2.png "Timer Screen")
